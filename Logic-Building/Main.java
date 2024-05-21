@@ -50,7 +50,7 @@ public class Main {
             System.out.println("Now number 'n' becomes: "+ n );
             if(n % 3 == 0){
                 int three = n / 3;
-                System.out.println(n +" is divided by 3 perfectly : "+"3 x " +n+" = "+ three);
+                System.out.println(n +" is divided by 3 perfectly : "+n +" / 3 = "+three);
                 System.out.println("Player 1 wins !!!");
                 win = false;
 
